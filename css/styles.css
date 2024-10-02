@@ -25,16 +25,19 @@ header img {
     max-height: 50px;
 }
 
+
 main {
     padding: 10px 190px;
 }
 
 h1 {
    color: rgb(154, 0, 115);
+   text-align: center;
 }
 
 .sectionBuscar {
     padding: 20px;
+    text-align: center;
 }
 
 .inputBuscar {
@@ -54,6 +57,7 @@ h1 {
     background-color: #8dbfdeba;
     color: #333;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .section-input {
@@ -83,8 +87,11 @@ h1 {
     margin: 15px;  
 }
 .link-repos{
-    padding: 0,10px;
+    padding: 0 10px;
+    
 }
-
-
-
+.link-repos a{
+    padding: 0 10px; 
+    text-decoration: none;
+    color: brown;
+}
